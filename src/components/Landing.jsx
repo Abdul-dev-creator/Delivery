@@ -1,5 +1,5 @@
 
-import Header from './header';
+import Header from './Header';
 import { Mine } from './Mine';
 
 
