@@ -7,13 +7,13 @@ import { FiSearch } from "react-icons/fi";
 function Navbar() {
   return (
     <div className="flex justify-between items-center px-4 py-5 font-inter font-medium">
-      <div className="flex items-center space-x-4">
+      <div className="flex items-center space-x-3">
         <h1 className="font-bold text-indigo-700 text-[20px]">
           Dasboard For Courier
         </h1>
       </div>
-      <div className="flex items-center space-x-6">
-        <div className="flex items-center space-x-2 mx-6 ">
+      <div className="flex items-center space-x-7 mx-6">
+        <div className="flex items-center space-x-2 mx-8 ">
           <div className="relative w-60 ">
             {/* Input field */}
             <input

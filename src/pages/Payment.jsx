@@ -102,7 +102,7 @@ import Pay from '../assets/frame 118.png'
 const Payment = () => {
   return (
     <div>
-     <div className='border-solid  border-2 max-w-[40%] h-auto  items-center p-2 font-inter bg-[#ffffff] mx-10 md:mx-10 py-6 md:py-8 md:px-4 my-6 md:my-10'>
+     <div className='border-solid  border-2 max-w-[50%] h-auto  items-center p-2 font-inter bg-[#ffffff] mx-10 md:mx-10 py-6 md:py-8 md:px-4 my-6 md:my-10'>
   {/* Title */}
   <h1 className='text-center font-bold text-lg md:text-xl'>
     Fast, Flexible, And Secure Payment
