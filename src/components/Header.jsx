@@ -50,7 +50,7 @@ function Header() {
             <img src={Tandem} alt="" className=" w-6"/>
             <h3 className="text-black font-bold">Tracker</h3>
         </div>
-            <ul className="flex flex-col lg:flex-row  gap-5 md:gap-10 text-[#cdcdcd] cursor-pointer font-semibold mt-5 lg:mt-0">
+            <ul className="flex flex-col lg:flex-row  gap-5 md:gap-10 text-[#cdcdcd] items-center cursor-pointer font-semibold mt-5 lg:mt-0">
                 <li className="text-blue-500 font-bold">Home</li>
                 <li className="hover:text-black">Track Delivery</li>
                 <li className="hover:text-black">Order History</li>
