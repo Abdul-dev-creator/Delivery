@@ -145,7 +145,7 @@ const Active = () => {
         </div>
         <div className="">
           {/* <img src={Frame} alt="" className="w-[90%] h-[100%]" /> */}
-          <iframe width="1000" height="592" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=1011&amp;height=592&amp;hl=en&amp;q=No%204%20gaa-akanbi%20road%20ilorin%20ilorin,%20kwara%20state+(TrackEase)&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://www.versicherungen.at/pflegevorsorge/'>private Pflegevorsorge</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=6a2018ab7277d007c3f9cdec301a44189b71307a'></script>
+          <iframe width="900" height="592" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=1011&amp;height=592&amp;hl=en&amp;q=No%204%20gaa-akanbi%20road%20ilorin%20ilorin,%20kwara%20state+(TrackEase)&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://www.versicherungen.at/pflegevorsorge/'>private Pflegevorsorge</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=6a2018ab7277d007c3f9cdec301a44189b71307a'></script>
         </div>
       </div>
       <div className="p-8 bg-gray-100 h-screen">

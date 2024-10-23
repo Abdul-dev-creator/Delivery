@@ -58,12 +58,16 @@ const [mobileNav, setMobileNav] = useState(false)
         </ul>
 
         <div className="hidden lg:flex gap-3 mt-5 md:mt-0 ">
+          <Link to='login'>
           <button className="border-solid border-2  py-2 px-8 rounded-[28px]  border-blue-600">
             Login
           </button>
-          <button className="border-solid border-2 bg-[#0056b3] py-2 px-8 rounded-[28px] text-white">
+          </Link>
+          <Link to='signup'>          <button className="border-solid border-2 bg-[#0056b3] py-2 px-8 rounded-[28px] text-white">
             Sign Up
           </button>
+          </Link>
+
         </div>
         <p className="flex lg:hidden">
           {
@@ -105,7 +109,7 @@ const [mobileNav, setMobileNav] = useState(false)
 
 
 
-      <div className="flex flex-col md:flex-row md:px-12 px-5 justify-between">
+      <div className="flex flex-col md:flex-row md:px-12 mx-10 justify-between">
         <div>
           <h1 className="text-[50px] font-bold leading-tight ">
             Effortless Deliveries, <br /> Tracked in Real-Time

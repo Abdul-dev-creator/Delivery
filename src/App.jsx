@@ -1,4 +1,7 @@
 import Landing from './components/Landing'
+import Signup from './components/Signup'
+import Login from './components/Login'
+import Forget from './components/Forget'
 import { BrowserRouter, Route, Routes, } from 'react-router-dom'
 import Layout from './components/dashboard/Layout'
 import Home from './pages/Home'
@@ -21,6 +24,9 @@ function App() {
   <BrowserRouter>
   <Routes>
     
+      <Route path='login' element={<Login />}/>
+      <Route path='signup' element={<Signup />}/>
+      <Route path='forget' element={<Forget />}/>
       <Route path='/' element={<Landing />}/>
       <Route path='/dashboard' element={<Layout />} >
       <Route index element={<Home />}/>
