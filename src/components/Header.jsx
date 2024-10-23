@@ -119,11 +119,11 @@ const [mobileNav, setMobileNav] = useState(false)
             tracking and notifications
           </p>
           <div className="flex gap-4 mt-6">
-            <Link to="/dashboard">
+            
               <button className="border-solid border-2  py-2 px-8 rounded-[28px]  bg-blue-700 border-blue-600 text-white">
                 Schedule a Delivery
               </button>
-            </Link>
+          
 
             <button className="border-solid border-2  py-2 px-8 rounded-[28px]  border-blue-900">
               Join as a courier

@@ -50,7 +50,7 @@ const Login = () => {
               <span className="text-gray-700">Remember me</span>
             </div>
             <Link to='/dashboard'>
-            <button onClick={()=> alert('login succcesful')} className="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition duration-300">
+            <button  className="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition duration-300">
               Login
             </button>
             </Link>
