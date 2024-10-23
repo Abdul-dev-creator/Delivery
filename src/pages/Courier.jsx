@@ -70,8 +70,8 @@ const Courier = () => {
     <div className="flex justify-center items-center h-screen bg-gray-100">
       <div className="bg-white p-6 rounded-lg shadow-lg w-96">
         <h2 className="text-xl font-semibold mb-4">Session feedback</h2>
-        <p className="mb-2">Please rate your experience with the rider below</p>
-        <div className="flex items-center mb-4">
+        <p className="mb-2 text-[13px]">Please rate your experience with the rider below</p>
+        <div className="flex pb-3">
           {[1, 2, 3, 4, 5].map((star) => (
             <svg
               key={star}
@@ -90,8 +90,8 @@ const Courier = () => {
               />
             </svg>
           ))}
-        <p className="mb-2">{rating}/5 stars</p>
         </div>
+        <p className="mb-2">{rating}/5 stars</p>
         <form onSubmit={handleSubmit}>
           <textarea
             className="w-full p-2 border rounded-lg mb-4"
@@ -110,7 +110,7 @@ const Courier = () => {
         <div className="text-center mt-4">
           <Link to='/'>
           
-          <button className="text-gray-500 hover:underline gap-4"><FaHome/> Home</button>
+          <button className="text-gray-500 hover:underline gap-2 ml-[30%] border-solid border-2 px-5 flex items-center"><FaHome/> Home</button>
           </Link>
         </div>
       </div>
