@@ -56,11 +56,12 @@ const Signup = () => {
                 className="w-[90%] px-4 py-2 border rounded-[20px] text-gray-700 focus:outline-none focus:border-blue-500"
               />
             </div>
-            <Link to='/'>
+            <Link to='/login'>
             <button onClick={() => alert('signup successful')} className="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition duration-300">
               Signup
             </button>
             </Link>
+            
           </form>
           
           <div className="flex items-center justify-between mt-6">

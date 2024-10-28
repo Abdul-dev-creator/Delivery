@@ -161,6 +161,11 @@ const Payment = () => {
       className='outline-none '
     />
    </div>
+   <div className='flex gap-6'>
+
+   <button className='border solid px-5 py-2 mt-4 items-center flex ml-5 rounded-[10px] bg-blue-800 text-white'>save</button>
+   <button className='border solid px-5 py-2 mt-4 items-center flex ml-5 rounded-[10px] bg-gray-500 text-white'>cancel</button>
+   </div>
   </div>
 </div>
     </div>

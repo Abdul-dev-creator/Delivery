@@ -108,10 +108,6 @@ const Courier = () => {
           </button>
         </form>
         <div className="text-center mt-4">
-          <Link to='/'>
-          
-          <button className="text-gray-500 hover:underline gap-2 ml-[30%] border-solid border-2 px-5 flex items-center"><FaHome/> Home</button>
-          </Link>
         </div>
       </div>
     </div>

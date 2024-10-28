@@ -37,7 +37,7 @@ const Setting = () => {
        <input type="email" placeholder='Enter your Email' className='border-2 border-solid border-gray-300 px-2 py-1 rounded-md' />
         </div>
         <div className='flex gap-8'>
-          <button  onClick={() => alert('Saved ')} className='border-solid border-2 px-8 py-1 rounded-[20px] bg-[#0056b3] border-[#0056b3] text-white'>save</button>
+          <button  onClick={handleSubmit} className='border-solid border-2 px-8 py-1 rounded-[20px] bg-[#0056b3] border-[#0056b3] text-white'>save</button>
           <button className='border-solid border-2 px-8 py-1 rounded-[20px] border-[#0056b3]'>cancel</button>
         </div>
       </div>
